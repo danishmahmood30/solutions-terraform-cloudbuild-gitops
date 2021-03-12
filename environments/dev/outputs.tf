@@ -13,7 +13,7 @@
 # limitations under the License.
 
 
-output "network" {
+output "network-name" {
   value = "${module.vpc.network}"
 }
 
